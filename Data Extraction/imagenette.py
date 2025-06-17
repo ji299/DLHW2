@@ -2,7 +2,6 @@ import os
 import shutil
 import random
 import pandas as pd
-
 # ------------------- 參數設定 -------------------
 # 1. 請自行確認並修改成你本機的「已解壓縮」Imagenette-160 根目錄
 src_root = "C:/Users/N16131691/Desktop/imagenette_160/imagenette2-160"
