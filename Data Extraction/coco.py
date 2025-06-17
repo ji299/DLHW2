@@ -1,6 +1,5 @@
 import os, json, shutil, random
 from collections import defaultdict
-
 # ------------------ Configuration ------------------
 # 請依實際路徑調整 ↓↓↓
 ANNOTATIONS_DIR  = r'C:\Users\N16131691\Desktop\coco\annotations'
