@@ -11,7 +11,6 @@ from torchmetrics import JaccardIndex
 from tqdm import tqdm
 from model import MyMultiTaskModel
 
-
 class DetectionDataset(Dataset):
     """自訂 COCO 檢測 Dataset，從助教給定路徑讀取影像與標註"""
     def __init__(self, det_root, transform=None):
